@@ -22,6 +22,7 @@ module.exports = {
         use: [
           'style-loader',
           'css-loader', // 먼저해석,
+          'postcss-loader',
           'sass-loader'
         ]
       }
